@@ -15,8 +15,6 @@ from selenium.webdriver.common.alert import Alert
 
 
 def definir_planilha(driver):
-        # https://www.gov.br/transferegov/pt-br/sistemas/acesso-livre
-        # https://discricionarias.transferegov.sistema.gov.br/voluntarias/proposta/ConsultarProposta/ConsultarProposta.do 
         driver.get("https://www.gov.br/transferegov/pt-br/sistemas/acesso-livre")
         driver.find_element(By.XPATH, '//*[@id="login_form"]/div[5]/a').click()
         div = driver.find_element(By.ID, 'main').find_element(By.ID, 'content').find_element(By.ID, 'content-core').\
