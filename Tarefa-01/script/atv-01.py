@@ -7,7 +7,6 @@ import re
 from utils import *
 import openpyxl
 from selenium.webdriver.common.by import By
-from anticaptchaofficial.recaptchav2proxyless import *
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.common.exceptions import UnexpectedAlertPresentException, NoAlertPresentException, \
